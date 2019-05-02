@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: DEAnalysis_Chapter1.aux
+The style file: plainnat.bst
+Database file #1: KatReference.bib
+Warning--I didn't find a database entry for "Pbenjamini1995controlling"
+You've used 27 entries,
+            2773 wiz_defined-function locations,
+            759 strings with 11664 characters,
+and the built_in function-call counts, 17458 in all, are:
+= -- 1404
+> -- 1612
+< -- 6
++ -- 540
+- -- 513
+* -- 1709
+:= -- 2832
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 244
+chr.to.int$ -- 27
+cite$ -- 54
+duplicate$ -- 565
+empty$ -- 1044
+format.name$ -- 550
+if$ -- 3480
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 27
+newline$ -- 143
+num.names$ -- 108
+pop$ -- 438
+preamble$ -- 1
+purify$ -- 217
+quote$ -- 0
+skip$ -- 513
+stack$ -- 0
+substring$ -- 514
+swap$ -- 32
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 297
+warning$ -- 0
+while$ -- 120
+width$ -- 0
+write$ -- 357
+(There was 1 warning)

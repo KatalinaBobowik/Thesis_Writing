@@ -1,0 +1,208 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Albert and Kruglyak(2015)]{albert2015role}
+Frank~W Albert and Leonid Kruglyak.
+\newblock The role of regulatory variation in complex traits and disease.
+\newblock \emph{Nature Reviews Genetics}, 16\penalty0 (4):\penalty0 197, 2015.
+
+\bibitem[Battle et~al.(2014)Battle, Mostafavi, Zhu, Potash, Weissman,
+  McCormick, Haudenschild, Beckman, Shi, Mei, et~al.]{battle2014characterizing}
+Alexis Battle, Sara Mostafavi, Xiaowei Zhu, James~B Potash, Myrna~M Weissman,
+  Courtney McCormick, Christian~D Haudenschild, Kenneth~B Beckman, Jianxin Shi,
+  Rui Mei, et~al.
+\newblock Characterizing the genetic basis of transcriptome diversity through
+  rna-sequencing of 922 individuals.
+\newblock \emph{Genome research}, 24\penalty0 (1):\penalty0 14--24, 2014.
+
+\bibitem[Benjamini and Hochberg(1995)]{benjamini1995controlling}
+Yoav Benjamini and Yosef Hochberg.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{Journal of the Royal statistical society: series B
+  (Methodological)}, 57\penalty0 (1):\penalty0 289--300, 1995.
+
+\bibitem[Bolger et~al.(2014)Bolger, Lohse, and Usadel]{bolger2014trimmomatic}
+Anthony~M Bolger, Marc Lohse, and Bjoern Usadel.
+\newblock Trimmomatic: a flexible trimmer for illumina sequence data.
+\newblock \emph{Bioinformatics}, 30\penalty0 (15):\penalty0 2114--2120, 2014.
+
+\bibitem[Chen et~al.(2016)Chen, Ge, Casale, Vasquez, Kwan, Garrido-Mart{\'\i}n,
+  Watt, Yan, Kundu, Ecker, et~al.]{chen2016genetic}
+Lu~Chen, Bing Ge, Francesco~Paolo Casale, Louella Vasquez, Tony Kwan, Diego
+  Garrido-Mart{\'\i}n, Stephen Watt, Ying Yan, Kousik Kundu, Simone Ecker,
+  et~al.
+\newblock Genetic drivers of epigenetic and transcriptional variation in human
+  immune cells.
+\newblock \emph{Cell}, 167\penalty0 (5):\penalty0 1398--1414, 2016.
+
+\bibitem[Chen et~al.(2014)Chen, McCarthy, Robinson, and Smyth]{chen2014edger}
+Yunshun Chen, D~McCarthy, M~Robinson, and GK~Smyth.
+\newblock edger: differential expression analysis of digital gene expression
+  data.
+\newblock \emph{Bioconductor User?s Guide}, pages 1--78, 2014.
+
+\bibitem[Cookson et~al.(2009)Cookson, Liang, Abecasis, Moffatt, and
+  Lathrop]{cookson2009mapping}
+William Cookson, Liming Liang, Gon{\c{c}}alo Abecasis, Miriam Moffatt, and Mark
+  Lathrop.
+\newblock Mapping complex disease traits with global gene expression.
+\newblock \emph{Nature Reviews Genetics}, 10\penalty0 (3):\penalty0 184, 2009.
+
+\bibitem[Dobin et~al.(2013)Dobin, Davis, Schlesinger, Drenkow, Zaleski, Jha,
+  Batut, Chaisson, and Gingeras]{dobin2013star}
+Alexander Dobin, Carrie~A Davis, Felix Schlesinger, Jorg Drenkow, Chris
+  Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, and Thomas~R Gingeras.
+\newblock Star: ultrafast universal rna-seq aligner.
+\newblock \emph{Bioinformatics}, 29\penalty0 (1):\penalty0 15--21, 2013.
+
+\bibitem[Gagnon-Bartsch and Speed(2012)]{gagnon2012using}
+Johann~A Gagnon-Bartsch and Terence~P Speed.
+\newblock Using control genes to correct for unwanted variation in microarray
+  data.
+\newblock \emph{Biostatistics}, 13\penalty0 (3):\penalty0 539--552, 2012.
+
+\bibitem[Gupta et~al.(2014)Gupta, Ellis, Ashar, Moes, Bader, Zhan, West, and
+  Arking]{gupta2014transcriptome}
+Simone Gupta, Shannon~E Ellis, Foram~N Ashar, Anna Moes, Joel~S Bader, Jianan
+  Zhan, Andrew~B West, and Dan~E Arking.
+\newblock Transcriptome analysis reveals dysregulation of innate immune
+  response genes and neuronal activity-dependent genes in autism.
+\newblock \emph{Nature communications}, 5:\penalty0 5748, 2014.
+
+\bibitem[Hoffman and Schadt(2016)]{hoffman2016variancepartition}
+Gabriel~E Hoffman and Eric~E Schadt.
+\newblock variancepartition: interpreting drivers of variation in complex gene
+  expression studies.
+\newblock \emph{BMC bioinformatics}, 17\penalty0 (1):\penalty0 483, 2016.
+
+\bibitem[Hudjashov et~al.(2017)Hudjashov, Karafet, Lawson, Downey, Savina,
+  Sudoyo, Lansing, Hammer, and Cox]{hudjashov2017complex}
+Georgi Hudjashov, Tatiana~M Karafet, Daniel~J Lawson, Sean Downey, Olga Savina,
+  Herawati Sudoyo, J~Stephen Lansing, Michael~F Hammer, and Murray~P Cox.
+\newblock Complex patterns of admixture across the indonesian archipelago.
+\newblock \emph{Molecular biology and evolution}, 34\penalty0 (10):\penalty0
+  2439--2452, 2017.
+
+\bibitem[Kremer et~al.(2017)Kremer, Bader, Mertes, Kopajtich, Pichler, Iuso,
+  Haack, Graf, Schwarzmayr, Terrile, et~al.]{kremer2017genetic}
+Laura~S Kremer, Daniel~M Bader, Christian Mertes, Robert Kopajtich, Garwin
+  Pichler, Arcangela Iuso, Tobias~B Haack, Elisabeth Graf, Thomas Schwarzmayr,
+  Caterina Terrile, et~al.
+\newblock Genetic diagnosis of mendelian disorders via rna sequencing.
+\newblock \emph{Nature communications}, 8:\penalty0 15824, 2017.
+
+\bibitem[Law et~al.(2014)Law, Chen, Shi, and Smyth]{law2014voom}
+Charity~W Law, Yunshun Chen, Wei Shi, and Gordon~K Smyth.
+\newblock voom: Precision weights unlock linear model analysis tools for
+  rna-seq read counts.
+\newblock \emph{Genome biology}, 15\penalty0 (2):\penalty0 R29, 2014.
+
+\bibitem[Liao et~al.(2013)Liao, Smyth, and Shi]{liao2013featurecounts}
+Yang Liao, Gordon~K Smyth, and Wei Shi.
+\newblock featurecounts: an efficient general purpose program for assigning
+  sequence reads to genomic features.
+\newblock \emph{Bioinformatics}, 30\penalty0 (7):\penalty0 923--930, 2013.
+
+\bibitem[Martin et~al.(2014)Martin, Costa, Lappalainen, Henn, Kidd, Yee,
+  Grubert, Cann, Snyder, Montgomery, et~al.]{martin2014transcriptome}
+Alicia~R Martin, Helio~A Costa, Tuuli Lappalainen, Brenna~M Henn, Jeffrey~M
+  Kidd, Muh-Ching Yee, Fabian Grubert, Howard~M Cann, Michael Snyder, Stephen~B
+  Montgomery, et~al.
+\newblock Transcriptome sequencing from diverse human populations reveals
+  differentiated regulatory architecture.
+\newblock \emph{PLoS genetics}, 10\penalty0 (8):\penalty0 e1004549, 2014.
+
+\bibitem[Martin et~al.(2017)Martin, Gignoux, Walters, Wojcik, Neale, Gravel,
+  Daly, Bustamante, and Kenny]{martin2017human}
+Alicia~R Martin, Christopher~R Gignoux, Raymond~K Walters, Genevieve~L Wojcik,
+  Benjamin~M Neale, Simon Gravel, Mark~J Daly, Carlos~D Bustamante, and
+  Eimear~E Kenny.
+\newblock Human demographic history impacts genetic risk prediction across
+  diverse populations.
+\newblock \emph{The American Journal of Human Genetics}, 100\penalty0
+  (4):\penalty0 635--649, 2017.
+
+\bibitem[Pala et~al.(2017)Pala, Zappala, Marongiu, Li, Davis, Cusano, Crobu,
+  Kukurba, Gloudemans, Reinier, et~al.]{pala2017population}
+Mauro Pala, Zachary Zappala, Mara Marongiu, Xin Li, Joe~R Davis, Roberto
+  Cusano, Francesca Crobu, Kimberly~R Kukurba, Michael~J Gloudemans, Frederic
+  Reinier, et~al.
+\newblock Population-and individual-specific regulatory variation in sardinia.
+\newblock \emph{Nature genetics}, 49\penalty0 (5):\penalty0 700, 2017.
+
+\bibitem[Pereira et~al.(2018)Pereira, Wallroth, Jonsson, and
+  Kristiansson]{pereira2018comparison}
+Mariana~Buongermino Pereira, Mikael Wallroth, Viktor Jonsson, and Erik
+  Kristiansson.
+\newblock Comparison of normalization methods for the analysis of metagenomic
+  gene abundance data.
+\newblock \emph{BMC genomics}, 19\penalty0 (1):\penalty0 274, 2018.
+
+\bibitem[Quach et~al.(2016)Quach, Rotival, Pothlichet, Loh, Dannemann, Zidane,
+  Laval, Patin, Harmant, Lopez, et~al.]{quach2016genetic}
+H{\'e}l{\`e}ne Quach, Maxime Rotival, Julien Pothlichet, Yong-Hwee~Eddie Loh,
+  Michael Dannemann, Nora Zidane, Guillaume Laval, Etienne Patin, Christine
+  Harmant, Marie Lopez, et~al.
+\newblock Genetic adaptation and neandertal admixture shaped the immune system
+  of human populations.
+\newblock \emph{Cell}, 167\penalty0 (3):\penalty0 643--656, 2016.
+
+\bibitem[Risso et~al.(2014)Risso, Ngai, Speed, and
+  Dudoit]{risso2014normalization}
+Davide Risso, John Ngai, Terence~P Speed, and Sandrine Dudoit.
+\newblock Normalization of rna-seq data using factor analysis of control genes
+  or samples.
+\newblock \emph{Nature biotechnology}, 32\penalty0 (9):\penalty0 896, 2014.
+
+\bibitem[Smyth et~al.(2003)Smyth, Thorne, and Wettenhall]{smyth2003limma}
+Gordon~K Smyth, Natalie Thorne, and James Wettenhall.
+\newblock Limma: linear models for microarray data user?s guide.
+\newblock \emph{Software manual available from http://www. bioconductor. org},
+  2003.
+
+\bibitem[Soneson et~al.(2015)Soneson, Love, and
+  Robinson]{soneson2015differential}
+Charlotte Soneson, Michael~I Love, and Mark~D Robinson.
+\newblock Differential analyses for rna-seq: transcript-level estimates improve
+  gene-level inferences.
+\newblock \emph{F1000Research}, 4, 2015.
+
+\bibitem[Timpson et~al.(2018)Timpson, Greenwood, Soranzo, Lawson, and
+  Richards]{timpson2018genetic}
+Nicholas~J Timpson, Celia~MT Greenwood, Nicole Soranzo, Daniel~J Lawson, and
+  J~Brent Richards.
+\newblock Genetic architecture: the shape of the genetic contribution to human
+  traits and disease.
+\newblock \emph{Nature Reviews Genetics}, 19\penalty0 (2):\penalty0 110, 2018.
+
+\bibitem[Westra et~al.(2013)Westra, Peters, Esko, Yaghootkar, Schurmann,
+  Kettunen, Christiansen, Fairfax, Schramm, Powell,
+  et~al.]{westra2013systematic}
+Harm-Jan Westra, Marjolein~J Peters, T{\~o}nu Esko, Hanieh Yaghootkar, Claudia
+  Schurmann, Johannes Kettunen, Mark~W Christiansen, Benjamin~P Fairfax,
+  Katharina Schramm, Joseph~E Powell, et~al.
+\newblock Systematic identification of trans eqtls as putative drivers of known
+  disease associations.
+\newblock \emph{Nature genetics}, 45\penalty0 (10):\penalty0 1238, 2013.
+
+\bibitem[Yamagishi et~al.(2014)Yamagishi, Natori, Tolba, Mongan, Sugimoto,
+  Katayama, Kawashima, Makalowski, Maeda, Eshita,
+  et~al.]{yamagishi2014interactive}
+Junya Yamagishi, Anna Natori, Mohammed~EM Tolba, Arthur~E Mongan, Chihiro
+  Sugimoto, Toshiaki Katayama, Shuichi Kawashima, Wojciech Makalowski,
+  Ryuichiro Maeda, Yuki Eshita, et~al.
+\newblock Interactive transcriptome analysis of malaria patients and infecting
+  plasmodium falciparum.
+\newblock \emph{Genome research}, 24\penalty0 (9):\penalty0 1433--1444, 2014.
+
+\bibitem[Zappala and Montgomery(2016)]{zappala2016non}
+Zachary Zappala and Stephen~B Montgomery.
+\newblock Non-coding loss-of-function variation in human genomes.
+\newblock \emph{Human heredity}, 81\penalty0 (2):\penalty0 78--87, 2016.
+
+\end{thebibliography}
