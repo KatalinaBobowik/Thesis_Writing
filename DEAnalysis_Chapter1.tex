@@ -332,7 +332,7 @@ In order to eliminate composition bias between libraries, I tested three differe
 \end{figure}
 
 \section{Sample variation analysis and data exploration}
-In order to identify outlier samples and assess which covariates might be associated with expression levels, I used principal component analysis on the TMM-transformed log2 expression values (for a full list of covariates, see Supplementary Table \ref{table: all Covariates}). Associations between covariates and expression levels were analysed by inspecting the first ten dimensions in the data for clustering within each group. To identify significant associations (p<0.05) between covariates and expression levels, I performed ANOVA tests between covariates and each dimension of the PCA. The first PCA was most strongly associated with batch (﻿Figure \ref{fig:PCA Batch}), followed by significant associations with island, RIN score, CD8T cells, and granulocytes (﻿Figure \ref{fig:Significant Covariates}; for a full list of significant associations, see Supplementary Table \ref{table: PCA assoc}). Sampling site, language, sampling date, sequencing pool, the Mappi tribe, and season also had significant associations, however these covariates were found to be confounded with other variables. In the second dimensions, blood cell type—in particular, granulocytes—had the highest correlation with expression levels. 
+In order to identify outlier samples and assess which covariates might be associated with expression levels, I used principal component analysis on the TMM-transformed log2 expression values (for a full list of covariates, see Supplementary Table \ref{table: all Covariates}). Associations between covariates and expression levels were analysed by inspecting the first ten dimensions in the data for clustering within each group. To identify significant associations (p<0.05) between covariates and expression levels, I performed ANOVA tests between covariates and each dimension of the PCA. The first PCA was most strongly associated with batch (﻿Figure \ref{fig:PCA Batch}), followed by significant associations with island, sampling site, RIN score, CD8T cells, and granulocytes (﻿Figure \ref{fig:Significant Covariates}; for a full list of significant associations, see Supplementary Table \ref{table: PCA assoc}). Language, sampling date, sequencing pool, the Mappi tribe, and season also had significant associations, however these covariates were found to be confounded with other variables. In the second dimensions, blood cell type—in particular, granulocytes—had the highest correlation with expression levels. 
 
 \begin{figure}[htb!]
 \centering
@@ -369,8 +369,9 @@ Because clear clustering was observed by batch, age, RIN score, and blood type (
 
 \textbf{\textit{~0 + Island + Age + batch + RIN + CD8T + CD4T + NK + Bcell + Mono + Gran}}
 
-where island is the covariate of interest and Age, batch, RIN, and blood types are the covariates affecting expression levels. I then set up a list of contrasts comparing each island population, which consisted of the following contrasts: Sumba versus Mentawai, Sumba versus Mappi, and Mentawai versus Mappi.  
-I removed high sample variability from the count data using Voom-normalisation on the TMM-normalised sample counts. Voom estimates the mean-variance relationship of log2 CPM-normalised counts and generates a precision weight for each sample \cite{law2014voom}. This approach enables poor-quality samples to be down-weighted and effectively eliminates the mean-variance relationship (﻿Figure \ref{fig:Voom normalisation}). Since technical replicates were used in the study design, the limma function duplicateCorrelation was used in order to estimate the correlation between expression measurements made on the same subject \cite{smyth2003limma}. DuplicateCorrelation takes information from replicated samples and uses an empirical Bayes method to moderate the standard deviation between genes \cite{smyth2003limma}. After running duplicateCorrelation on the samples, I then ran Voom a second time to incorporate the technical replicates as blocking variables and to feed in the estimated correlation within the blocks. A simple linear regression model was then fit to the voom output for each gene and an empirical Bayes moderated t-statistic was used to test each individual contrast from the design matrix equal to zero. When fitting the t models, I used the ‘robust’ parameter in Limma’s ‘eBayes’ function in order to deal with outlier genes that have abnormally high or low variance. I then identified significant genes using an adjusted p-value of 0.01 (Benjamini–Hochberg corrected \cite{Pbenjamini1995controlling}) and an absolute log-fold change of 1. 
+where island is the covariate of interest and Age, batch, RIN, and blood types are the covariates affecting expression levels. I then set up a list of contrasts comparing each island population, which consisted of the following contrasts: Sumba versus Mentawai, Sumba versus Mappi, and Mentawai versus Mappi. To test the number of differentially expressed genes at the village level, I replaced the covariate of interest with sampling site and set up my contrasts so that each village was contrasted with every other village. Furthermore, 16 samples from the Sumba population were removed which had 5 or fewer samples in each village. 
+  
+I removed high sample variability from the count data using Voom-normalisation on the TMM-normalised sample counts. Voom estimates the mean-variance relationship of log2 CPM-normalised counts and generates a precision weight for each sample \cite{law2014voom}. This approach enables poor-quality samples to be down-weighted and effectively eliminates the mean-variance relationship (﻿Figure \ref{fig:Voom normalisation}). Since technical replicates were used in the study design, the limma function duplicateCorrelation was used in order to estimate the correlation between expression measurements made on the same subject \cite{smyth2003limma}. DuplicateCorrelation takes information from replicated samples and uses an empirical Bayes method to moderate the standard deviation between genes \cite{smyth2003limma}. After running duplicateCorrelation on the samples, I then ran Voom a second time to incorporate the technical replicates as blocking variables and to feed in the estimated correlation within the blocks. A simple linear regression model was then fit to the voom output for each gene and an empirical Bayes moderated t-statistic was used to test each individual contrast from the design matrix equal to zero. When fitting the models, I used the ‘robust’ parameter in Limma’s ‘eBayes’ function in order to deal with outlier genes that have abnormally high or low variance. I then identified significant genes using an adjusted p-value of 0.01 (Benjamini–Hochberg corrected \cite{benjamini1995controlling}) and an absolute log-fold change of 1. 
 
 \begin{figure}[htb!]
 \centering
@@ -443,20 +444,27 @@ In order to see which method had a higher amount of unexplained variation, I use
 \label{fig:Variance Explained}
 \end{figure}
 
-Since the batch correction method including known covariates influencing gene expression into a model had less residual variation and a lower association between expression levels and sequencing batch, this method was chosen to correct for batch effects. Furthermore, estimating batch effects through packages such as RUV may introduce incorrect group differences in downstream analyses, particularly when groups are not evenly distributed between the batches \cite{nygaard2016methods].
+Since the batch correction method including known covariates influencing gene expression into a model had less residual variation and a lower association between expression levels and sequencing batch, this method was chosen to correct for batch effects. Furthermore, estimating batch effects through packages such as RUV may introduce incorrect group differences in downstream analyses, particularly when groups are not evenly distributed between the batches \cite{nygaard2016methods}.
 
 \chapter{Results}\label{}
 
 \section{Island structure is maintained in expression profiles}
 
+Expression profiles from islands form unique clusters. Data from expression is sensitive enough to capture fine-scale variation, which we believe is not due to differences in sampling. Interestingly, we see this at the village level. This separation by island and village is consistent with the cultural and linguistic separation we see. After correction for batch, we found that island and sampling site had the strongest association with expression levels. /ref{fig:Remove Batch Effect Island and Village}
+
 \begin{figure}[htb!]
 \centering
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/pcaresults_Island_RemoveBatchEffect.pdf}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/samplingsiteAndVillagePCA.pdf}
 \caption{}
-\label{fig:PCA Island}
+\label{fig:Remove Batch Effect Island and Village}
 \end{figure}
 
+
 \section{Most significantly DE genes are those compared to the Mappi population}
+
+I tested the number of differentially expressed genes at a p-value of 0.0.1 with differing log fold thresholds (0, 0.5, and 1). The total number of differentially expressed genes at each threshold can be viewed in table 3.1. At all thresholds, comparisons between Sumba and Mappi had the highest number of DE genes, followed by comparisons between Mentawai and Mappi. When looking at a finer scale, we found that many of these DE genes are mainly driven by Taillaleu Mappi and Wunga Mappi. As expected, comparisons between villages had the least number of DE genes. When looking at the total number of DE genes at that had a significance threshold over 0..01, we saw that the majority of DE genes had a low log fold change, particularly SUmba versus Mentawai. 
+
+Since most differentially expressed genes were found to be in comparison to the Mappi population, we plotted the log Fold change values of all genes between populations in comparison with the Mappi population. We found that all significantly DE genes were concordantly up or down regulated in both population comparisons with Mappi. 
 
 \begin{table}[htb!]
 \caption{Number of significantly DE genes at different logFC values. All DE genes are calculated with a pvalue cutoff of 0.01}
@@ -496,6 +504,29 @@ LogFC & SMBvsMTW & SMBvsMPI & MTWvsMPI \\ [0.5ex]
 \label{fig:LogFC: Mappi vs Others}
 \end{figure}
 
+\section{Gene set testing and pathway analysis}
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/all_c2_barplots.pdf}
+\caption{Bar plot of the -log10 adjusted p-values of the top 20 gene sets, ranked in order by the results of the gene set test CAMERA. Up-regulated genes are highlighted in orange and down-regulated genes are highlighted in blue.}
+\label{fig:Variance Explained}
+\end{figure}
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/allHeatmapSummary_GeneSets.jpg}
+\caption{Heatmap of the most significant gene sets for C2, KEGG, and c5 GO-BP. Gene stes with high a high comparison ranking are highlighted in darker colours. A positive log fold change is highlighted in red, a negative log fold change in blue, and neutral gene sets in white.}
+\label{fig:c2 Heatmap Summary}
+\end{figure}
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/RevigoPlots.pdf}
+\caption{Visual representation of enriched GO terms (5\%\ FDR) using REVIGO (Supek et al. 2011).  For each GO ID, redundant GO terms are removed and grouped by semantically similar terms.}
+\label{fig:Revigo}
+\end{figure}
+
 \section{Many DE genes are involved in the immune response}
 
 \begin{figure}[htb!]
@@ -517,29 +548,6 @@ LogFC & SMBvsMTW & SMBvsMPI & MTWvsMPI \\ [0.5ex]
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/favouriteTopGenes_distribution_Island.pdf}
 \caption{Expression levels of some of the top DE genes, all involved in the innate immune system. SIGLEC6 and SOX5 are upregulated in the Mappi population, whereas SIGLEC7, MARCO, ABCB4, and TNSF4 are downregulated in the Mappi population.}
 \label{fig:Heatmap Top Genes}
-\end{figure}
-
-\section{Gene set testing and pathway analysis}
-
-\begin{figure}[htb!]
-\centering
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/all_c2_barplots.pdf}
-\caption{Bar plot of the -log10 adjusted p-values of the top 20 gene sets, ranked in order by the results of the gene set test CAMERA. Up-regulated genes are highlighted in orange and down-regulated genes are highlighted in blue.}
-\label{fig:Variance Explained}
-\end{figure}
-
-\begin{figure}[htb!]
-\centering
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/allHeatmapSummary_GeneSets.jpg}
-\caption{Heatmap of the most significant gene sets for C2, KEGG, and c5 GO-BP. Gene stes with high a high comparison ranking are highlighted in darker colours. A positive log fold change is highlighted in red, a negative log fold change in blue, and neutral gene sets in white.}
-\label{fig:Variance Explained}
-\end{figure}
-
-\begin{figure}[htb!]
-\centering
-\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figures/allHeatmapSummary_GeneSets.jpg}
-\caption{Visual representation of enriched GO terms (5\%\ FDR) using REVIGO (Supek et al. 2011).  For each GO ID, redundant GO terms are removed and grouped by semantically similar terms.}
-\label{fig:Variance Explained}
 \end{figure}
 
 \chapter{Discussion}\label{}
@@ -619,7 +627,6 @@ LogFC & SMBvsMTW & SMBvsMPI & MTWvsMPI \\ [0.5ex]
     
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{plainnat}
- \addcontentsline{toc}{chapter}{Bibliography}
 
     \bibliography{KatReference.bib}
 

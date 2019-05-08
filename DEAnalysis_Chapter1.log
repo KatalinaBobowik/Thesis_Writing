@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  2 MAY 2019 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  6 MAY 2019 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -842,16 +842,10 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `fig:Variance Explained' multiply defined.
+
+
 LaTeX Warning: Label `fig:Heatmap Top Genes' multiply defined.
-
-
-LaTeX Warning: Label `fig:Variance Explained' multiply defined.
-
-
-LaTeX Warning: Label `fig:Variance Explained' multiply defined.
-
-
-LaTeX Warning: Label `fig:Variance Explained' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -1314,7 +1308,7 @@ ted
  []
 
 [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6708) has occurred while \output is active []
 
  [7])
 \tf@lof=\write7
@@ -1373,13 +1367,13 @@ Package xcolor Warning: Incompatible color definition on input line 275.
 [5
 
 ]
-<Figures/SamplePipeline.jpg, id=461, 587.19376pt x 454.69875pt>
+<Figures/SamplePipeline.jpg, id=456, 587.19376pt x 454.69875pt>
 File: Figures/SamplePipeline.jpg Graphic file (type jpg)
 <use Figures/SamplePipeline.jpg>
 Package pdftex.def Info: Figures/SamplePipeline.jpg  used on input line 281.
 (pdftex.def)             Requested size: 422.50142pt x 327.16776pt.
  [6 <./Figures/SamplePipeline.jpg>]
-<Figures/TotalandPercentageOfReads_allFilteringStages.pdf, id=475, 1228.59pt x 
+<Figures/TotalandPercentageOfReads_allFilteringStages.pdf, id=470, 1228.59pt x 
 1445.4pt>
 File: Figures/TotalandPercentageOfReads_allFilteringStages.pdf Graphic file (ty
 pe pdf)
@@ -1388,7 +1382,7 @@ Package pdftex.def Info: Figures/TotalandPercentageOfReads_allFilteringStages.p
 df  used on input line 293.
 (pdftex.def)             Requested size: 422.4955pt x 497.05353pt.
  [7]
-<Figures/replicate_comparisons_postFiltering_123Combined.pdf, id=489, 722.7pt x
+<Figures/replicate_comparisons_postFiltering_123Combined.pdf, id=484, 722.7pt x
  722.7pt>
 File: Figures/replicate_comparisons_postFiltering_123Combined.pdf Graphic file 
 (type pdf)
@@ -1412,7 +1406,7 @@ Overfull \hbox (0.20851pt too wide) in paragraph at lines 307--307
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./Figures/replicate_comparisons_postFiltering_123Combined.pdf>]
-<Figures/libraryDensity_afterFiltering_indoRNA.pdf, id=517, 1084.05pt x 578.16p
+<Figures/libraryDensity_afterFiltering_indoRNA.pdf, id=512, 1084.05pt x 578.16p
 t>
 File: Figures/libraryDensity_afterFiltering_indoRNA.pdf Graphic file (type pdf)
 
@@ -1430,7 +1424,7 @@ T1/cmr/m/n/12 11
  []
 
 [11 <./Figures/libraryDensity_afterFiltering_indoRNA.pdf>]
-<Figures/librarySize_indoRNA_postFiltering_123Combined.pdf, id=532, 1084.05pt x
+<Figures/librarySize_indoRNA_postFiltering_123Combined.pdf, id=527, 1084.05pt x
  722.7pt>
 File: Figures/librarySize_indoRNA_postFiltering_123Combined.pdf Graphic file (t
 ype pdf)
@@ -1438,7 +1432,7 @@ ype pdf)
 Package pdftex.def Info: Figures/librarySize_indoRNA_postFiltering_123Combined.
 pdf  used on input line 321.
 (pdftex.def)             Requested size: 422.4966pt x 281.6644pt.
-<Figures/NormalisedGeneExpressionDistribution_IndoRNA_TMM.pdf, id=533, 1084.05p
+<Figures/NormalisedGeneExpressionDistribution_IndoRNA_TMM.pdf, id=528, 1084.05p
 t x 1084.05pt>
 File: Figures/NormalisedGeneExpressionDistribution_IndoRNA_TMM.pdf Graphic file
  (type pdf)
@@ -1450,24 +1444,24 @@ MM.pdf  used on input line 329.
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
  [13 <./Figures/NormalisedGeneExpressionDistribution_IndoRNA_TMM.pdf>]
-<Figures/pcaresults_batch.pdf, id=563, 505.89pt x 505.89pt>
+<Figures/pcaresults_batch.pdf, id=558, 505.89pt x 505.89pt>
 File: Figures/pcaresults_batch.pdf Graphic file (type pdf)
 <use Figures/pcaresults_batch.pdf>
 Package pdftex.def Info: Figures/pcaresults_batch.pdf  used on input line 339.
 (pdftex.def)             Requested size: 422.51312pt x 422.51312pt.
-<Figures/significantCovariates_AnovaHeatmap.pdf, id=564, 505.89pt x 505.89pt>
+<Figures/significantCovariates_AnovaHeatmap.pdf, id=559, 505.89pt x 505.89pt>
 File: Figures/significantCovariates_AnovaHeatmap.pdf Graphic file (type pdf)
 <use Figures/significantCovariates_AnovaHeatmap.pdf>
 Package pdftex.def Info: Figures/significantCovariates_AnovaHeatmap.pdf  used o
 n input line 346.
 (pdftex.def)             Requested size: 422.51312pt x 422.51312pt.
-<Figures/SampleDistances_Euclidean.pdf, id=567, 1084.05pt x 578.16pt>
+<Figures/SampleDistances_Euclidean.pdf, id=562, 1084.05pt x 578.16pt>
 File: Figures/SampleDistances_Euclidean.pdf Graphic file (type pdf)
 <use Figures/SampleDistances_Euclidean.pdf>
 Package pdftex.def Info: Figures/SampleDistances_Euclidean.pdf  used on input l
 ine 355.
 (pdftex.def)             Requested size: 422.4966pt x 225.33151pt.
-<Figures/IslandVariation_pearson.pdf, id=568, 1084.05pt x 1084.05pt>
+<Figures/IslandVariation_pearson.pdf, id=563, 1084.05pt x 1084.05pt>
 File: Figures/IslandVariation_pearson.pdf Graphic file (type pdf)
 <use Figures/IslandVariation_pearson.pdf>
 Package pdftex.def Info: Figures/IslandVariation_pearson.pdf  used on input lin
@@ -1476,45 +1470,40 @@ e 362.
  [14] [15 <./Figures/pcaresults_batch.pdf>] [16 <./Figures/significantCovariate
 s_AnovaHeatmap.pdf>]
 [17 <./Figures/SampleDistances_Euclidean.pdf>] [18 <./Figures/IslandVariation_p
-earson.pdf>]
-
-Package natbib Warning: Citation `Pbenjamini1995controlling' on page 19 undefin
-ed on input line 373.
-
-[19
+earson.pdf>] [19
 
 ]
-<Figures/Limma_voomDuplicateCorrelation_TMMNormalisation.pdf, id=629, 867.24pt 
+<Figures/Limma_voomDuplicateCorrelation_TMMNormalisation.pdf, id=625, 867.24pt 
 x 578.16pt>
 File: Figures/Limma_voomDuplicateCorrelation_TMMNormalisation.pdf Graphic file 
 (type pdf)
 <use Figures/Limma_voomDuplicateCorrelation_TMMNormalisation.pdf>
 Package pdftex.def Info: Figures/Limma_voomDuplicateCorrelation_TMMNormalisatio
-n.pdf  used on input line 377.
+n.pdf  used on input line 378.
 (pdftex.def)             Requested size: 422.50322pt x 281.66881pt.
  [20 <./Figures/Limma_voomDuplicateCorrelation_TMMNormalisation.pdf>]
-<Figures/Normalisation_beforeandAfterUQnorm.pdf, id=647, 1084.05pt x 1084.05pt>
+<Figures/Normalisation_beforeandAfterUQnorm.pdf, id=644, 1084.05pt x 1084.05pt>
 
 File: Figures/Normalisation_beforeandAfterUQnorm.pdf Graphic file (type pdf)
 <use Figures/Normalisation_beforeandAfterUQnorm.pdf>
 Package pdftex.def Info: Figures/Normalisation_beforeandAfterUQnorm.pdf  used o
-n input line 388.
+n input line 389.
 (pdftex.def)             Requested size: 422.4966pt x 422.4966pt.
-<Figures/RUVsNormalisation_choosingK.pdf, id=653, 867.24pt x 1084.05pt>
+<Figures/RUVsNormalisation_choosingK.pdf, id=650, 867.24pt x 1084.05pt>
 File: Figures/RUVsNormalisation_choosingK.pdf Graphic file (type pdf)
 <use Figures/RUVsNormalisation_choosingK.pdf>
 Package pdftex.def Info: Figures/RUVsNormalisation_choosingK.pdf  used on input
- line 397.
+ line 398.
 (pdftex.def)             Requested size: 422.50322pt x 528.12903pt.
 
 
-LaTeX Warning: Float too large for page by 13.08752pt on input line 400.
+LaTeX Warning: Float too large for page by 13.08752pt on input line 401.
 
-<Figures/numberDeGenes_choosingK_RUVs.pdf, id=654, 1084.05pt x 361.35pt>
+<Figures/numberDeGenes_choosingK_RUVs.pdf, id=651, 1084.05pt x 361.35pt>
 File: Figures/numberDeGenes_choosingK_RUVs.pdf Graphic file (type pdf)
 <use Figures/numberDeGenes_choosingK_RUVs.pdf>
 Package pdftex.def Info: Figures/numberDeGenes_choosingK_RUVs.pdf  used on inpu
-t line 404.
+t line 405.
 (pdftex.def)             Requested size: 422.4966pt x 140.8322pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1523,188 +1512,174 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./Figures/Normalisation_beforeandAfterUQnorm.pdf>]
-<Figures/Limma_voom_upperquartilenormalisation.pdf, id=674, 1084.05pt x 578.16p
+<Figures/Limma_voom_upperquartilenormalisation.pdf, id=671, 1084.05pt x 578.16p
 t>
 File: Figures/Limma_voom_upperquartilenormalisation.pdf Graphic file (type pdf)
 
 <use Figures/Limma_voom_upperquartilenormalisation.pdf>
 Package pdftex.def Info: Figures/Limma_voom_upperquartilenormalisation.pdf  use
-d on input line 413.
+d on input line 414.
 (pdftex.def)             Requested size: 422.4966pt x 225.33151pt.
  [23] [24 <./Figures/RUVsNormalisation_choosingK.pdf>] [25 <./Figures/numberDeG
 enes_choosingK_RUVs.pdf> <./Figures/Limma_voom_upperquartilenormalisation.pdf>]
-<Figures/PCA_RUVvsLM_FirstDimension.pdf, id=715, 1084.05pt x 578.16pt>
+<Figures/PCA_RUVvsLM_FirstDimension.pdf, id=711, 1084.05pt x 578.16pt>
 File: Figures/PCA_RUVvsLM_FirstDimension.pdf Graphic file (type pdf)
 <use Figures/PCA_RUVvsLM_FirstDimension.pdf>
 Package pdftex.def Info: Figures/PCA_RUVvsLM_FirstDimension.pdf  used on input 
-line 424.
+line 425.
 (pdftex.def)             Requested size: 422.4966pt x 225.33151pt.
-<Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf, id=716, 1084.05pt x 505.89
+<Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf, id=712, 1084.05pt x 505.89
 pt>
 File: Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf Graphic file (type pdf
 )
 <use Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf>
 Package pdftex.def Info: Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf  us
-ed on input line 432.
+ed on input line 433.
 (pdftex.def)             Requested size: 422.4966pt x 197.16507pt.
  [26
 
  <./Figures/PCA_RUVvsLM_FirstDimension.pdf>]
-<Figures/VarianceExplained_LMvsRUVs.pdf, id=732, 1084.05pt x 722.7pt>
+<Figures/VarianceExplained_LMvsRUVs.pdf, id=728, 1084.05pt x 722.7pt>
 File: Figures/VarianceExplained_LMvsRUVs.pdf Graphic file (type pdf)
 <use Figures/VarianceExplained_LMvsRUVs.pdf>
 Package pdftex.def Info: Figures/VarianceExplained_LMvsRUVs.pdf  used on input 
-line 441.
+line 442.
 (pdftex.def)             Requested size: 422.4966pt x 281.6644pt.
-
-Runaway argument?
-{nygaard2016methods]. 
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.447 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[27 <./Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf>] [28 <./Figures/Vari
-anceExplained_LMvsRUVs.pdf>]
+ [27 <./Figures/Heatmap_SigCovar_RUVvsLM_OnlyCovarInLM.pdf>]
+[28 <./Figures/VarianceExplained_LMvsRUVs.pdf>]
 Chapter 3.
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 449.
 
 
-Overfull \hbox (5.03737pt too wide) in paragraph at lines 450--450
+Overfull \hbox (5.03737pt too wide) in paragraph at lines 451--451
 []\T1/cmr/bx/n/17.28 Island struc-ture is main-tained in ex-pres-sion pro-
  []
 
-<Figures/pcaresults_Island_RemoveBatchEffect.pdf, id=755, 505.89pt x 505.89pt>
-File: Figures/pcaresults_Island_RemoveBatchEffect.pdf Graphic file (type pdf)
-<use Figures/pcaresults_Island_RemoveBatchEffect.pdf>
-Package pdftex.def Info: Figures/pcaresults_Island_RemoveBatchEffect.pdf  used 
-on input line 454.
-(pdftex.def)             Requested size: 422.51312pt x 422.51312pt.
+<Figures/samplingsiteAndVillagePCA.pdf, id=753, 1084.05pt x 578.16pt>
+File: Figures/samplingsiteAndVillagePCA.pdf Graphic file (type pdf)
+<use Figures/samplingsiteAndVillagePCA.pdf>
+Package pdftex.def Info: Figures/samplingsiteAndVillagePCA.pdf  used on input l
+ine 457.
+(pdftex.def)             Requested size: 422.4966pt x 225.33151pt.
 [29
 
 ]
-Overfull \hbox (1.52782pt too wide) in paragraph at lines 459--459
+Overfull \hbox (1.52782pt too wide) in paragraph at lines 463--463
 []\T1/cmr/bx/n/17.28 Most sig-nif-i-cantly DE genes are those com-pared
  []
 
-<Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf, id=760, 1084.05pt x 
+[30 <./Figures/samplingsiteAndVillagePCA.pdf>]
+<Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf, id=769, 1084.05pt x 
 1084.05pt>
 File: Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf Graphic file (ty
 pe pdf)
 <use Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf>
 Package pdftex.def Info: Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.p
-df  used on input line 480.
+df  used on input line 488.
 (pdftex.def)             Requested size: 422.4966pt x 422.4966pt.
-<Figures/log2FC_IslandComparisons_pval01_dupCor.pdf, id=761, 505.89pt x 505.89p
+<Figures/log2FC_IslandComparisons_pval01_dupCor.pdf, id=770, 505.89pt x 505.89p
 t>
 File: Figures/log2FC_IslandComparisons_pval01_dupCor.pdf Graphic file (type pdf
 )
 <use Figures/log2FC_IslandComparisons_pval01_dupCor.pdf>
 Package pdftex.def Info: Figures/log2FC_IslandComparisons_pval01_dupCor.pdf  us
-ed on input line 487.
+ed on input line 495.
 (pdftex.def)             Requested size: 422.51312pt x 422.51312pt.
-<Figures/logFC_commonMPIgenes_dupCor.pdf, id=762, 505.89pt x 505.89pt>
+<Figures/logFC_commonMPIgenes_dupCor.pdf, id=771, 505.89pt x 505.89pt>
 File: Figures/logFC_commonMPIgenes_dupCor.pdf Graphic file (type pdf)
 <use Figures/logFC_commonMPIgenes_dupCor.pdf>
 Package pdftex.def Info: Figures/logFC_commonMPIgenes_dupCor.pdf  used on input
- line 494.
+ line 502.
 (pdftex.def)             Requested size: 422.51312pt x 422.51312pt.
-[30 <./Figures/pcaresults_Island_RemoveBatchEffect.pdf>]
+
 Overfull \hbox (126.74979pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/12 3.2.  MOST SIGNIFICANTLY DE GENES ARE THOSE COMPARED TO THE MAP
 PI POPULATION \T1/cmr/m/n/12 31
  []
 
-[31 <./Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf>] [32 <./Figure
-s/log2FC_IslandComparisons_pval01_dupCor.pdf>]
+[31] [32 <./Figures/vennDiagram_allSigDEGenes_pval01_FDR1_dupCor.pdf>]
 Overfull \hbox (126.74979pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/12 3.2.  MOST SIGNIFICANTLY DE GENES ARE THOSE COMPARED TO THE MAP
 PI POPULATION \T1/cmr/m/n/12 33
  []
 
-[33 <./Figures/logFC_commonMPIgenes_dupCor.pdf>]
-<Figures/MD_Plots_pval01_lfc1_dupCor.pdf, id=810, 722.7pt x 1084.05pt>
+[33 <./Figures/log2FC_IslandComparisons_pval01_dupCor.pdf>] [34 <./Figures/logF
+C_commonMPIgenes_dupCor.pdf>]
+<Figures/all_c2_barplots.pdf, id=812, 963.6pt x 542.025pt>
+File: Figures/all_c2_barplots.pdf Graphic file (type pdf)
+<use Figures/all_c2_barplots.pdf>
+Package pdftex.def Info: Figures/all_c2_barplots.pdf  used on input line 511.
+(pdftex.def)             Requested size: 422.50027pt x 237.6564pt.
+<Figures/allHeatmapSummary_GeneSets.jpg, id=813, 1722.435pt x 688.5725pt>
+File: Figures/allHeatmapSummary_GeneSets.jpg Graphic file (type jpg)
+<use Figures/allHeatmapSummary_GeneSets.jpg>
+Package pdftex.def Info: Figures/allHeatmapSummary_GeneSets.jpg  used on input 
+line 518.
+(pdftex.def)             Requested size: 422.4865pt x 168.8961pt.
+<Figures/RevigoPlots.pdf, id=814, 722.7pt x 428.60126pt>
+File: Figures/RevigoPlots.pdf Graphic file (type pdf)
+<use Figures/RevigoPlots.pdf>
+Package pdftex.def Info: Figures/RevigoPlots.pdf  used on input line 525.
+(pdftex.def)             Requested size: 422.50761pt x 250.5705pt.
+ [35
+
+ <./Figures/all_c2_barplots.pdf> <./Figures/allHeatmapSummary_GeneSets.jpg>]
+<Figures/MD_Plots_pval01_lfc1_dupCor.pdf, id=877, 722.7pt x 1084.05pt>
 File: Figures/MD_Plots_pval01_lfc1_dupCor.pdf Graphic file (type pdf)
 <use Figures/MD_Plots_pval01_lfc1_dupCor.pdf>
 Package pdftex.def Info: Figures/MD_Plots_pval01_lfc1_dupCor.pdf  used on input
- line 503.
+ line 534.
 (pdftex.def)             Requested size: 398.36842pt x 597.55264pt.
 
 
-LaTeX Warning: Float too large for page by 53.51114pt on input line 506.
+LaTeX Warning: Float too large for page by 53.51114pt on input line 537.
 
-<Figures/HeatmapAllPops_dupCor.pdf, id=811, 1084.05pt x 867.24pt>
+<Figures/HeatmapAllPops_dupCor.pdf, id=878, 1084.05pt x 867.24pt>
 File: Figures/HeatmapAllPops_dupCor.pdf Graphic file (type pdf)
 <use Figures/HeatmapAllPops_dupCor.pdf>
 Package pdftex.def Info: Figures/HeatmapAllPops_dupCor.pdf  used on input line 
-510.
+541.
 (pdftex.def)             Requested size: 422.4966pt x 337.99728pt.
-<Figures/favouriteTopGenes_distribution_Island.pdf, id=812, 1084.05pt x 867.24p
+<Figures/favouriteTopGenes_distribution_Island.pdf, id=879, 1084.05pt x 867.24p
 t>
 File: Figures/favouriteTopGenes_distribution_Island.pdf Graphic file (type pdf)
 
 <use Figures/favouriteTopGenes_distribution_Island.pdf>
 Package pdftex.def Info: Figures/favouriteTopGenes_distribution_Island.pdf  use
-d on input line 517.
+d on input line 548.
 (pdftex.def)             Requested size: 422.4966pt x 337.99728pt.
-[34
-
-] [35 <./Figures/MD_Plots_pval01_lfc1_dupCor.pdf>] [36 <./Figures/HeatmapAllPop
-s_dupCor.pdf>] [37 <./Figures/favouriteTopGenes_distribution_Island.pdf>]
-<Figures/all_c2_barplots.pdf, id=849, 963.6pt x 542.025pt>
-File: Figures/all_c2_barplots.pdf Graphic file (type pdf)
-<use Figures/all_c2_barplots.pdf>
-Package pdftex.def Info: Figures/all_c2_barplots.pdf  used on input line 526.
-(pdftex.def)             Requested size: 422.50027pt x 237.6564pt.
-<Figures/allHeatmapSummary_GeneSets.jpg, id=850, 1722.435pt x 688.5725pt>
-File: Figures/allHeatmapSummary_GeneSets.jpg Graphic file (type jpg)
-<use Figures/allHeatmapSummary_GeneSets.jpg>
-Package pdftex.def Info: Figures/allHeatmapSummary_GeneSets.jpg  used on input 
-line 533.
-(pdftex.def)             Requested size: 422.4865pt x 168.8961pt.
-File: Figures/allHeatmapSummary_GeneSets.jpg Graphic file (type jpg)
-<use Figures/allHeatmapSummary_GeneSets.jpg>
-Package pdftex.def Info: Figures/allHeatmapSummary_GeneSets.jpg  used on input 
-line 540.
-(pdftex.def)             Requested size: 422.4865pt x 168.8961pt.
-
-[38
-
- <./Figures/all_c2_barplots.pdf> <./Figures/allHeatmapSummary_GeneSets.jpg>] [3
-9] [40
+[36 <./Figures/RevigoPlots.pdf>] [37 <./Figures/MD_Plots_pval01_lfc1_dupCor.pdf
+>] [38 <./Figures/HeatmapAllPops_dupCor.pdf>] [39 <./Figures/favouriteTopGenes_
+distribution_Island.pdf>] [40
 
 ]
 Chapter 4.
 
-Package xcolor Warning: Incompatible color definition on input line 545.
+Package xcolor Warning: Incompatible color definition on input line 553.
 
 [41] [42
 
 ]
 Chapter 5.
 
-Package xcolor Warning: Incompatible color definition on input line 547.
+Package xcolor Warning: Incompatible color definition on input line 555.
 
-<Figures/nGenes_indoRNA_postFiltering_123Combined.pdf, id=930, 1084.05pt x 722.
+<Figures/nGenes_indoRNA_postFiltering_123Combined.pdf, id=968, 1084.05pt x 722.
 7pt>
 File: Figures/nGenes_indoRNA_postFiltering_123Combined.pdf Graphic file (type p
 df)
 <use Figures/nGenes_indoRNA_postFiltering_123Combined.pdf>
 Package pdftex.def Info: Figures/nGenes_indoRNA_postFiltering_123Combined.pdf  
-used on input line 553.
+used on input line 561.
 (pdftex.def)             Requested size: 422.4966pt x 281.6644pt.
-<Figures/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf, id=931, 
+<Figures/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf, id=969, 
 1084.05pt x 1084.05pt>
 File: Figures/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf Grap
 hic file (type pdf)
 <use Figures/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf>
 Package pdftex.def Info: Figures/NormalisedGeneExpressionDistribution_IndoRNA_a
-ll3Methods.pdf  used on input line 561.
+ll3Methods.pdf  used on input line 569.
 (pdftex.def)             Requested size: 422.4966pt x 422.4966pt.
 [43] [44 <./Figures/nGenes_indoRNA_postFiltering_123Combined.pdf>] [45 <./Figur
 es/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf>] [46
@@ -1712,10 +1687,7 @@ es/NormalisedGeneExpressionDistribution_IndoRNA_all3Methods.pdf>] [46
 ]
 (./DEAnalysis_Chapter1.bbl [47
 
-] [48] [49]) [50]
-
-Package natbib Warning: There were undefined citations.
-
+] [48] [49] [50]) [51]
 
 ! LaTeX Error: \begin{mainmatter} on input line 258 ended by \end{document}.
 
@@ -1723,39 +1695,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630 \end{document}
+l.637 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 630.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 637.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 637.
 (./DEAnalysis_Chapter1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 637.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 637.
 Package rerunfilecheck Info: File `DEAnalysis_Chapter1.out' has not changed.
-(rerunfilecheck)             Checksum: 9234BC4EF47CB86B012DC6DC38805AC0;1803.
+(rerunfilecheck)             Checksum: 758E4CABA2373CE97C158CBE95FD148A;1748.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 630.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 637.
  )
-(\end occurred inside a group at level 3)
+(\end occurred inside a group at level 2)
 
-### semi simple group (level 3) entered at line 265 (\begingroup)
 ### simple group (level 2) entered at line 262 ({)
 ### semi simple group (level 1) entered at line 258 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21821 strings out of 492649
- 395060 string characters out of 6129622
- 590591 words of memory out of 5000000
- 25050 multiletter control sequences out of 15000+600000
+ 21836 strings out of 492649
+ 395391 string characters out of 6129622
+ 591259 words of memory out of 5000000
+ 25062 multiletter control sequences out of 15000+600000
  25494 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,62p,1775b,946s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,62p,1775b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></u
@@ -1768,10 +1739,10 @@ exlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on DEAnalysis_Chapter1.pdf (62 pages, 3138039 bytes).
+Output written on DEAnalysis_Chapter1.pdf (63 pages, 3183369 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 897 compressed objects within 9 object streams
- 149 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1096 PDF objects out of 1200 (max. 8388607)
+ 929 compressed objects within 10 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

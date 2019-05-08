@@ -15,11 +15,10 @@
 \contentsline {chapter}{\numberline {3}Results}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Island structure is maintained in expression profiles}{29}{section.3.1}
 \contentsline {section}{\numberline {3.2}Most significantly DE genes are those compared to the Mappi population}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}Many DE genes are involved in the immune response}{34}{section.3.3}
-\contentsline {section}{\numberline {3.4}Gene set testing and pathway analysis}{38}{section.3.4}
+\contentsline {section}{\numberline {3.3}Gene set testing and pathway analysis}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}Many DE genes are involved in the immune response}{36}{section.3.4}
 \contentsline {chapter}{\numberline {4}Discussion}{41}{chapter.4}
 \contentsline {chapter}{\numberline {5}Supplementary Information}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Supplementary Figures}{43}{section.5.1}
 \contentsline {section}{\numberline {5.2}Supplementary Tables}{46}{section.5.2}
-\contentsline {chapter}{Bibliography}{47}{table.caption.40}
 \contentsline {chapter}{Bibliography}{47}{table.caption.40}
