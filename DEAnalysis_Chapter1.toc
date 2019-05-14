@@ -12,13 +12,13 @@
 \contentsline {section}{\numberline {2.6}Differential expression analysis}{19}{section.2.6}
 \contentsline {section}{\numberline {2.7}RUVs}{20}{section.2.7}
 \contentsline {section}{\numberline {2.8}Comparing both}{26}{section.2.8}
+\contentsline {section}{\numberline {2.9}Gene enrichment analyses}{28}{section.2.9}
 \contentsline {chapter}{\numberline {3}Results}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}Island structure is maintained in expression profiles}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}Most significantly DE genes are those compared to the Mappi population}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}Gene set testing and pathway analysis}{35}{section.3.3}
-\contentsline {section}{\numberline {3.4}Many DE genes are involved in the immune response}{36}{section.3.4}
-\contentsline {chapter}{\numberline {4}Discussion}{41}{chapter.4}
-\contentsline {chapter}{\numberline {5}Supplementary Information}{43}{chapter.5}
-\contentsline {section}{\numberline {5.1}Supplementary Figures}{43}{section.5.1}
-\contentsline {section}{\numberline {5.2}Supplementary Tables}{46}{section.5.2}
-\contentsline {chapter}{Bibliography}{47}{table.caption.40}
+\contentsline {section}{\numberline {3.1}Ancestry is associated with expression profiles}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}Exploration of enriched gene sets in the Indonesian island populations}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}Many DE Genes are involved in the immune response}{40}{section.3.3}
+\contentsline {chapter}{\numberline {4}Discussion}{45}{chapter.4}
+\contentsline {chapter}{\numberline {5}Supplementary Information}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Supplementary Figures}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Supplementary Tables}{50}{section.5.2}
+\contentsline {chapter}{Bibliography}{51}{table.caption.42}
