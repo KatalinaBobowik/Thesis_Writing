@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,11 @@
 Frank~W Albert and Leonid Kruglyak.
 \newblock The role of regulatory variation in complex traits and disease.
 \newblock \emph{Nature Reviews Genetics}, 16\penalty0 (4):\penalty0 197, 2015.
+
+\bibitem[Amin(2012)]{amin2012role}
+Kawa Amin.
+\newblock The role of mast cells in allergic inflammation.
+\newblock \emph{Respiratory medicine}, 106\penalty0 (1):\penalty0 9--14, 2012.
 
 \bibitem[Battle et~al.(2014)Battle, Mostafavi, Zhu, Potash, Weissman,
   McCormick, Haudenschild, Beckman, Shi, Mei, et~al.]{battle2014characterizing}
@@ -59,6 +64,15 @@ Alexander Dobin, Carrie~A Davis, Felix Schlesinger, Jorg Drenkow, Chris
   Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, and Thomas~R Gingeras.
 \newblock Star: ultrafast universal rna-seq aligner.
 \newblock \emph{Bioinformatics}, 29\penalty0 (1):\penalty0 15--21, 2013.
+
+\bibitem[Fav{\'e} et~al.(2018)Fav{\'e}, Lamaze, Soave, Hodgkinson, Gauvin,
+  Bruat, Grenier, Gbeha, Skead, Smargiassi, et~al.]{fave2018gene}
+Marie-Julie Fav{\'e}, Fabien~C Lamaze, David Soave, Alan Hodgkinson,
+  H{\'e}lo{\"\i}se Gauvin, Vanessa Bruat, Jean-Christophe Grenier, Elias Gbeha,
+  Kimberly Skead, Audrey Smargiassi, et~al.
+\newblock Gene-by-environment interactions in urban populations modulate risk
+  phenotypes.
+\newblock \emph{Nature communications}, 9\penalty0 (1):\penalty0 827, 2018.
 
 \bibitem[Gagnon-Bartsch and Speed(2012)]{gagnon2012using}
 Johann~A Gagnon-Bartsch and Terence~P Speed.
@@ -159,6 +173,15 @@ H{\'e}l{\`e}ne Quach, Maxime Rotival, Julien Pothlichet, Yong-Hwee~Eddie Loh,
   of human populations.
 \newblock \emph{Cell}, 167\penalty0 (3):\penalty0 643--656, 2016.
 
+\bibitem[Rakhmanov et~al.(2014)Rakhmanov, Sic, Kienzler, Fischer, Rizzi, Seidl,
+  Melkaoui, Unger, Moehle, Schmit, et~al.]{rakhmanov2014high}
+Mirzokhid Rakhmanov, Heiko Sic, Anne-Kathrin Kienzler, Beate Fischer, Marta
+  Rizzi, Maximilian Seidl, Kerstina Melkaoui, Susanne Unger, Luisa Moehle,
+  Nadine~E Schmit, et~al.
+\newblock High levels of sox5 decrease proliferative capacity of human b cells,
+  but permit plasmablast differentiation.
+\newblock \emph{PloS one}, 9\penalty0 (6):\penalty0 e100328, 2014.
+
 \bibitem[Risso et~al.(2014)Risso, Ngai, Speed, and
   Dudoit]{risso2014normalization}
 Davide Risso, John Ngai, Terence~P Speed, and Sandrine Dudoit.
@@ -206,6 +229,14 @@ Junya Yamagishi, Anna Natori, Mohammed~EM Tolba, Arthur~E Mongan, Chihiro
 \newblock Interactive transcriptome analysis of malaria patients and infecting
   plasmodium falciparum.
 \newblock \emph{Genome research}, 24\penalty0 (9):\penalty0 1433--1444, 2014.
+
+\bibitem[Yu et~al.(2018)Yu, Blokhuis, Diks, Keshavarzian, Garssen, and
+  Redegeld]{yu2018functional}
+Yingxin Yu, Bart Blokhuis, Mara Diks, Ali Keshavarzian, Johan Garssen, and
+  Frank~A Redegeld.
+\newblock Functional inhibitory siglec-6 is upregulated in human colorectal
+  cancer-associated mast cells.
+\newblock \emph{Frontiers in immunology}, 9:\penalty0 2138, 2018.
 
 \bibitem[Zappala and Montgomery(2016)]{zappala2016non}
 Zachary Zappala and Stephen~B Montgomery.
