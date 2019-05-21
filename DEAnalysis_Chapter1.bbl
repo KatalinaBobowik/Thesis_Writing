@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -57,6 +57,15 @@ William Cookson, Liming Liang, Gon{\c{c}}alo Abecasis, Miriam Moffatt, and Mark
   Lathrop.
 \newblock Mapping complex disease traits with global gene expression.
 \newblock \emph{Nature Reviews Genetics}, 10\penalty0 (3):\penalty0 184, 2009.
+
+\bibitem[Cox et~al.(2016)Cox, Hudjashov, Sim, Savina, Karafet, Sudoyo, and
+  Lansing]{cox2016small}
+Murray~P Cox, Georgi Hudjashov, Andre Sim, Olga Savina, Tatiana~M Karafet,
+  Herawati Sudoyo, and J~Stephen Lansing.
+\newblock Small traditional human communities sustain genomic diversity over
+  microgeographic scales despite linguistic isolation.
+\newblock \emph{Molecular biology and evolution}, 33\penalty0 (9):\penalty0
+  2273--2284, 2016.
 
 \bibitem[Dobin et~al.(2013)Dobin, Davis, Schlesinger, Drenkow, Zaleski, Jha,
   Batut, Chaisson, and Gingeras]{dobin2013star}

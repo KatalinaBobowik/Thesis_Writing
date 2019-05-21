@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: DEAnalysis_Chapter1.aux
 The style file: plainnat.bst
 Database file #1: KatReference.bib
-You've used 32 entries,
+You've used 33 entries,
             2773 wiz_defined-function locations,
-            783 strings with 12851 characters,
-and the built_in function-call counts, 20651 in all, are:
-= -- 1657
-> -- 1911
+            788 strings with 13127 characters,
+and the built_in function-call counts, 21375 in all, are:
+= -- 1717
+> -- 1977
 < -- 7
-+ -- 641
-- -- 609
-* -- 2022
-:= -- 3355
-add.period$ -- 96
-call.type$ -- 32
-change.case$ -- 289
-chr.to.int$ -- 32
-cite$ -- 64
-duplicate$ -- 669
-empty$ -- 1235
-format.name$ -- 651
-if$ -- 4114
++ -- 663
+- -- 630
+* -- 2096
+:= -- 3470
+add.period$ -- 99
+call.type$ -- 33
+change.case$ -- 299
+chr.to.int$ -- 33
+cite$ -- 66
+duplicate$ -- 690
+empty$ -- 1278
+format.name$ -- 673
+if$ -- 4258
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 32
-newline$ -- 168
-num.names$ -- 128
-pop$ -- 519
+missing$ -- 33
+newline$ -- 173
+num.names$ -- 132
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 257
+purify$ -- 266
 quote$ -- 0
-skip$ -- 605
+skip$ -- 624
 stack$ -- 0
-substring$ -- 601
-swap$ -- 37
+substring$ -- 634
+swap$ -- 38
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 352
+type$ -- 363
 warning$ -- 0
-while$ -- 142
+while$ -- 147
 width$ -- 0
-write$ -- 422
+write$ -- 435
